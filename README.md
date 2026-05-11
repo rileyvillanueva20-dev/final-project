@@ -23,6 +23,8 @@ The project combines two primary sources of information:
 
 Professional tournament pick-rate information was collected and aggregated at the agent-tournament level to better align with patch-level balance changes.
 
+[VCT Dataset](https://www.kaggle.com/datasets/ryanluong1/valorant-champion-tour-2021-2023-data/data)
+
 2. Patch Balance Features
 
 Patch notes were manually categorized into gameplay adjustment types. Each balance feature was encoded directionally using:
