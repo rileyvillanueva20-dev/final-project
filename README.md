@@ -60,6 +60,7 @@ Previous tournament pick rates were calculated chronologically for each agent
 
 delta_pick_rate was calculated to measure pick-rate movement between tournaments
 
+**ONLY MAJOR TOURNAMENTS WERE CONSIDERED**
 
 ## Modeling Approaches
 Linear Regression
