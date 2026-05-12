@@ -29,10 +29,11 @@ Professional tournament pick-rate information was collected and aggregated at th
 
 Patch notes were manually categorized into gameplay adjustment types. Each balance feature was encoded directionally using:
 
--1 = nerf
-0 = no meaningful adjustment
-+1 = buff
-Feature Descriptions
+- -1 = nerf
+- 0 = no meaningful adjustment
+- +1 = buff
+
+## Feature Descriptions
 
 This data was scraped from the VALORANT patch notes and filtered into one of these columns. These are character specific buffs and nerfs so overall bug fixes or gameplay changes were not accounted for.  
 
