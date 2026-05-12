@@ -89,7 +89,20 @@ This project should be interpreted as associative rather than strictly causal. P
 
 As a result, patch adjustments alone cannot fully explain professional pick-rate movement.
 
-- Technologies Used
+
+## Findings 
+
+The results of the analysis showed that some types of balance changes appeared to have a stronger relationship with professional pick-rate movement than others. Utility strength changes showed one of the clearest positive relationships in the regression model, which suggests that buffs or nerfs directly affecting an agent’s utility can have a noticeable impact on professional usage. This makes sense in competitive Valorant since utility often shapes site executes, map control, and overall team coordination.
+
+Charge-related changes showed the strongest negative relationship in the model. This may suggest that adjustments affecting how often abilities can be used can heavily influence whether an agent stays viable in professional play. 
+
+Economic value and range-related changes also showed negative relationships with pick-rate movement, which suggests that ability cost efficiency and utility reach may affect how consistently agents are selected across tournaments. On the other hand, cooldown and duration changes showed much smaller relationships in the model, which may indicate that these adjustments alone are not usually enough to significantly shift the professional meta.
+
+The model also showed that previous pick rate still mattered. Agents that were already popular in the professional meta tended to remain relevant even after accounting for patch adjustments. This suggests that team familiarity, established strategies, and overall comfort with certain agents continue to play an important role in professional agent selection.
+
+Overall, the findings suggest that patch balance changes do contribute to professional pick-rate movement, but they are only part of a much larger competitive environment that also includes map pools, team strategy, coaching adaptation, and evolving tournament metas.
+
+## Technologies Used
 - Python
 - Pandas
 - NumPy
