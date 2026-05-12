@@ -10,12 +10,13 @@ The analysis focuses on interpretability rather than purely predictive performan
 How do different categories of Valorant balance changes relate to professional agent pick-rate movement in VCT tournaments?
 
 ## Project Goals
-Track professional agent pick-rate movement over time
-Align VCT tournaments with active Valorant patches
-Engineer interpretable gameplay balance features from patch notes
-Evaluate relationships between balance changes and professional pick-rate changes
-Explore how existing meta popularity influences future pick rates
-Dataset Information
+- Track professional agent pick-rate movement over time
+- Align VCT tournaments with active Valorant patches
+- Engineer interpretable gameplay balance features from patch notes
+- Evaluate relationships between balance changes and professional pick-rate changes
+- Explore how existing meta popularity influences future pick rates
+
+## Dataset Information
 
 The project combines two primary sources of information:
 
@@ -25,7 +26,7 @@ Professional tournament pick-rate information was collected and aggregated at th
 
 [VCT Dataset](https://www.kaggle.com/datasets/ryanluong1/valorant-champion-tour-2021-2023-data/data) 
    
-*I recommend getting the information from here as I used the file paths in my workflow to gather data.* 
+*The VCT dataset used in this project can be accessed from Kaggle. File paths may need to be updated depending on the local folder structure.* 
 
 2. Patch Balance Features
 
@@ -55,7 +56,7 @@ This data was scraped from the VALORANT patch notes and filtered into one of the
 
 ## Methodology
 
-Data Preparation
+### Data Preparation
 
 Tournament data was aligned with the active patch during each event
 
@@ -104,6 +105,15 @@ Economic value and range-related changes also showed negative relationships with
 The model also showed that previous pick rate still mattered. Agents that were already popular in the professional meta tended to remain relevant even after accounting for patch adjustments. This suggests that team familiarity, established strategies, and overall comfort with certain agents continue to play an important role in professional agent selection.
 
 Overall, the findings suggest that patch balance changes do contribute to professional pick-rate movement, but they are only part of a much larger competitive environment that also includes map pools, team strategy, coaching adaptation, and evolving tournament metas.
+
+## How to Run
+
+1. Clone or download this repository.
+2. Download the VCT dataset from Kaggle.
+3. Update file paths in the notebook if needed.
+4. Open `valorant_patch_analysis.ipynb` in Jupyter Notebook.
+5. Run the notebook cells in order.
+
 
 ## Technologies Used
 - Python
